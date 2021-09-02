@@ -6,19 +6,18 @@
   text-align: center;
 }
 
-.text-align {
-  display: inline-block;
+.text {
+  padding: 10px 0;
   width: 90px;
   background-color: #e6f2ff;
-  padding: 10px 0;
+}
+.text-align {
+  display: inline-block;
 }
 
 .margin {
-  width: 90px;
-  background-color: #e6f2ff;
   margin: 0 auto;
   text-align: center;
-  padding: 10px 0;
 }
 
 .table-outer {
@@ -31,23 +30,20 @@
   text-align: center;
 }
 
+.middle-box {
+  padding: 10px 10px;
+  background-color: #fff;
+}
 .table-inner {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  padding: 10px 10px;
-  background-color: #fff;
 }
 
 .flex-box {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.flex {
-  padding: 10px 10px;
-  background-color: #fff;
 }
 
 .stable-wrapper {
@@ -60,6 +56,9 @@
   position: absolute;
   top: 0;
   right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .flexible-wrapper {

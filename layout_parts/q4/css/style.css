@@ -4,13 +4,16 @@
 .block {
   display: table;
   width: 100%;
-  background-color: #eff3f4;
-  padding: 15px;
+  margin-top: 20px;
 }
 
+.block:first-child {
+  margin-top: 0;
+}
 .container {
   padding: 20px;
   box-sizing: border-box;
+  background-color: #ECF1F2;
 }
 
 .element {
@@ -19,31 +22,31 @@
   text-align: center;
 }
 
+.flexible {
+  display: table-cell;
+}
+
 .first {
   width: 100px;
   background-color: #fdc8b8;
 }
 
 .second {
-  display: table-cell;
   background-color: #e0abd9;
 }
 
 .third {
-  display: table-cell;
   background-color: #b6d8ed;
   width: 100px;
 }
 
 .forth {
   background-color: #e5d32e;
-  display: table-cell;
   padding: 20px 0;
 }
 
 .fifth {
   background-color: #ec8f9a;
-  display: table-cell;
 }
 
 .sixth {
