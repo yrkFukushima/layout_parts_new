@@ -17,6 +17,7 @@
 .float:first-child {
   margin-left: 0;
 }
+
 .clearfix:after {
   display: block;
   content: "";
@@ -36,10 +37,15 @@
   margin-left: 0;
 }
 
+.inner-inline {
+  font-size: 0;
+}
+
 .inline-block {
   display: inline-block;
   vertical-align: middle;
-  width: 222px;
+  width:225px;
+  font-size: 16px;
 }
 
 .inline-block:first-child {
