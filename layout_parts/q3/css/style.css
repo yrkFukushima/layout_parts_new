@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table{
+table {
   table-layout: fixed;
-  width:100%;
+  width: 100%;
   padding: 10px;
   border: solid #dedede 1px;
 }
 
-table th{
+table th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
@@ -16,21 +16,24 @@ table th{
   padding: 10px 0;
   border: solid #dedede 1px;
 }
-table td{
+
+table td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px 0;
   border: solid #dedede 1px;
 }
 
-table tr{
+table tr {
   text-align: center;
   padding: 10px;
 }
-tr:nth-child(odd){
+
+tr:nth-child(odd) {
   background-color:#ecf1f2 ;
 }
-tr:last-child{
+
+tr:last-child {
   background-color: #fff;
   border-top: dashed #000 2px;
 }

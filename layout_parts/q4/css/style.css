@@ -1,50 +1,52 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.block{
+.block {
   display: table;
   width: 100%;
   background-color: #eff3f4;
   padding: 15px;
 }
-.container{
+
+.container {
   padding: 20px;
   box-sizing: border-box;
 }
 
-.element{
+.element {
   display: table-cell;
   padding: 20px 0;
   text-align: center;
 }
 
-.first{
+.first {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.second{
+.second {
   display: table-cell;
   background-color: #e0abd9;
 }
 
-.third{
+.third {
   display: table-cell;
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.firth{
+.forth {
   background-color: #e5d32e;
   display: table-cell;
   padding: 20px 0;
 }
-.fifth{
+
+.fifth {
   background-color: #ec8f9a;
   display: table-cell;
 }
 
-.sixth{
+.sixth {
   background-color: #8fdcad;
   width: 500px;
 }

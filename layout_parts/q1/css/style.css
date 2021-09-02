@@ -1,40 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.contents{
-  width:900px;
+
+.clear-fix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.contents {
+  width: 900px;
   padding: 20px;
   margin: 0 auto;
   background-color: #eff3f4;
 }
 
-.wrapper-content{
+.wrapper-content {
   background-color: #3274ae;
   padding: 20px;
   float: left;
-  margin-left:20px ;
+  margin-left: 20px ;
 }
-.content{
-  width:230px;
+
+.content {
+  width: 230px;
   background-color: #eaf4ff;
   padding: 20px;
   box-sizing: border-box;
-  border:10px solid #022336;
-  font-size:16px;
+  border: 10px solid #022336;
+  font-size: 16px;
   line-height: 16px;
 }
 
-.wrapper-content:first-child{
+.wrapper-content:first-child {
   margin-left: 0;
 }
-
-.clear-fix:after{
-  display: block;
-  content: "";
-  clear: both;
-}
-
-
-
 
 /* 回答はここに書いてね */

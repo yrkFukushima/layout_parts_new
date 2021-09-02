@@ -2,80 +2,78 @@
 
 /* 回答はここに書いてね */
 
-.content-box{
-  width:225px;
+.content-box {
+  width: 225px;
   box-sizing: border-box;
-  margin-left:50px;
+  margin-left: 50px;
   font-size: 16px;
 }
-.float{
+
+.float {
   float: left;
-  margin-left:50px;
+  margin-left: 50px;
 }
 
-.float:first-child{
+.float:first-child {
   margin-left: 0;
 }
 .clearfix:after {
   display: block;
   content: "";
   clear: both;
-
 }
 
-.table-wrapper{
+.table-wrapper {
   display: table;
-
 }
-.table-content{
+
+.table-content {
   display: table-cell;
   vertical-align: middle;
 }
 
-.table-left{
+.table-left {
   margin-left: 0;
 }
 
-
-.inline-block{
+.inline-block {
   display: inline-block;
   vertical-align: middle;
-  width:222px;
-
-}
-.inline-block:first-child{
-  margin-left:0;
+  width: 222px;
 }
 
-.flexbox{
+.inline-block:first-child {
+  margin-left: 0;
+}
+
+.flexbox {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.flex-content{
-  width:225px;
+
+.flex-content {
+  width: 225px;
   box-sizing: border-box;
 }
 
-.content-wrapper{
-  /* text-align: center; */
+.content-wrapper {
   font-size: 0;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
 }
 
-.stable{
+.stable {
   display: inline-block;
   width: 300px;
-  /* margin-right: 50px; */
   box-sizing: border-box;
   font-size: 16px;
   vertical-align: top;
 }
 
-.flexible{
+.flexible {
   display: inline-block;
-  width:100%;
+  width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
