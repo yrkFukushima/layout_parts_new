@@ -12,21 +12,22 @@
   position: relative;
 }
 
-.contents-wrapper:before {
+.contents-wrapper:before,
+.contents-wrapper:after {
   content: "";
   position: absolute;
+  border: 20px solid transparent;
+}
+
+.contents-wrapper:before {
   bottom: -45px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: #222;
 }
 
 .contents-wrapper:after {
-  content: "";
-  position: absolute;
   bottom: -38px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: #fff;
 }
 
