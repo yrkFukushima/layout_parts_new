@@ -39,6 +39,17 @@
 
 .image:hover .text-wrapper {
   bottom: 0;
+  animation: slideIn 0.5s;
+  transition: all 0.5s;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(180px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .circle {
